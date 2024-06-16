@@ -1,0 +1,7 @@
+#Atribuição com comando input
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite sua idade: ")) #converte  de string para numero inteiro
+altura = float(input("Digite a sua altura: "))
+print(nome)
+print(idade)
+print(altura)
