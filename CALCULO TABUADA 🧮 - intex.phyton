@@ -1,0 +1,5 @@
+multiplicando = int(input("Tabuada de:"))
+multiplicador = 1
+while multiplicador <= 10:
+  print(f"{multiplicando} x {multiplicador} = {multiplicando*multiplicador}")
+  multiplicador+=1
