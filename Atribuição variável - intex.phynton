@@ -1,0 +1,17 @@
+#Declaração e Atribuição de Variável
+nome = 'Maria Letícia Lins🤠'
+print(nome)
+idade = 16
+print(idade)
+
+
+#esse é um comentário de uma linha
+print("Oi😊") #pode ser usado na frente da linha de código
+
+...
+" E aqui é um bloco de Docstring"
+"Podendo comentar em mais de uma linha"
+" Esse tipo de bloco de comentário é usado em documentação de algorítimo "
+" Ou por necessidades acadêmicas , quando colocamos informações do curso , professor, aluno etc."
+" Curso: Técnico de Informática para a Internet "
+" Prof : Eduardo Hernandes 🧑🏻"
