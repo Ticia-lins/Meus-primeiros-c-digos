@@ -1,0 +1,16 @@
+def adicao():
+    num1 = int(input("insira o primeiro número: "))
+    num2 = int(input("insira o segundo número: "))
+    print(f"{num1} + {num2} = {num1+num2}")
+
+def subtracao():
+    num1 = int(input("insira o primeiro número: "))
+    num2 = int(input("insira o segundo número: "))
+    print(f"{num1} - {num2} = {num1 - num2}")
+
+print("bem-vindo a calculadora")
+resposta = int(input("insira o tipo de calculo que você deseja: [1 = adição , 2 = subtração]: "))
+if resposta == 1:
+  adicao()
+elif resposta == 2:
+  subtracao()
