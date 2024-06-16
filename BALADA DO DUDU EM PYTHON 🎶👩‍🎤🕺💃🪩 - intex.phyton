@@ -1,0 +1,21 @@
+#Lógica computacional
+#Balada do Dudu 2
+#Programa desenvolvido por:M° Letícia
+#2° ano D i.i
+
+#balada do dudu foi realizada no portugol e agora esta passada para python
+
+idade = int(input("Seja bem-vindo à balada do dudu! insira sua idade para saber se pode entrar pirraia :)"))
+
+
+if idade >= 18:
+  print("ok, pode entrar pirraia aproveita a festa, mais cuidado com as boyzinhas e os boyzinhos😎")
+
+elif idade >= 16:
+  autoriza= input("tu tem autorização pirraia s/n 👀: ")
+  if autoriza  == "s":
+    print("ok, pode entrar pirraia 👅")
+  else:
+    print("não pode pirraia vaza 👿")
+else:
+  print("Não pode entrar😤!!")
